@@ -1,0 +1,29 @@
+h1, h2, img{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   /* width: 50%;*/
+}
+.color-title{
+    font-family: normal;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+#red{
+    color: red;
+}
+#blue{
+    color: blue;
+}
+#orange{
+    color: orange;
+}
+#green{
+    color: green;
+}
+#yellow{
+    color: yellow;
+}
