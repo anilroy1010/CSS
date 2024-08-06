@@ -4,7 +4,7 @@ body {
 }
 
 header {
-  background-color: #a8e1f8;
+  background-color: hwb(152 69% 5%);
   color: #fff;
   padding: 20px;
   text-align: center;
@@ -15,7 +15,7 @@ header h1 {
 }
 
 nav {
-  background-color: hsl(177, 83%, 73%);
+  background-color: hwb(180 20% 77%);
   color: #fff;
   padding: 20px;
   text-align: center;
