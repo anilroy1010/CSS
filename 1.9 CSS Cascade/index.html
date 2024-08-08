@@ -3,24 +3,24 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>CSS Cascade</title>
+  <title>CSS cascades process</title>
   <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
   <div id="outer-box" class="box">
-    <div class="box">
-      <p>Yellow Text</p>
-      <div class="box inner-box">
-        <p class="white-text">White Text</p>
+      <div class="box">
+        <p>Yellow Text</p>
+        <div class="box inner-box">
+           <p class="white-text">White Text</p>
+        </div>
       </div>
-    </div>
-    <div class="box">
-      <p>Yellow Text</p>
-      <div class="box inner-box">
-        <p class="white-text">White Text</p>
-      </div>
-    </div>
+      <div class="box">
+         <p>Yellow Text</p>
+         <div class="box inner-box"> <!--Two class name under one class-->
+            <p class="white-text">White Text</p>
+         </div>
+      </div> 
   </div>
 </body>
 
