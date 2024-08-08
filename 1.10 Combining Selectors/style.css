@@ -1,0 +1,21 @@
+/* Write your code here: */
+/*Group*/
+h1, h2{
+    color: blueviolet;
+}
+/*Chile*/
+.box>p {
+    color: firebrick;
+}
+/*Decendent*/
+.box li{
+    color: blue;
+}
+/*chained*/
+li.done{
+    color: green;
+}
+/*multiple combinator*/
+ul p.done{
+    font-size: 0.5rem;
+}
