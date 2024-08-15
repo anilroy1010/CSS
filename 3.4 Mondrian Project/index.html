@@ -6,15 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mondrian Project</title>
   <style>
-    body{
+    body {
       display: flex;
       justify-content: center;
       align-items: center;
       height: 100vh;
-      margin-top: 15px;
+      margin: 0; /* Fixed margin issue */
       padding: 0;
     }
-    .container{
+    .container {
       display: grid;
       height: 748px;
       width: 748px;
@@ -23,47 +23,46 @@
       grid-template-rows: 414px 130px 155px 22px;
       gap: 9px;
     }
-    .red{
+    .item {
+      background-color: #F0F1EC;
+    }
+    .red {
       background-color: #E72F24;
     }
-    .white1{
-      grid-column: span 3;
+    .white1 {
+      grid-column: span 3; /* Spans 3 columns */
     }
-    .white2{
-       grid-row: span 2;
+    .white2 {
+      grid-row: span 2; /* Spans 2 rows */
     }
-    .white3{
-      grid-area: 2/2/4/4;
+    .white3 {
+      grid-area: 2 / 2 / 4 / 4; /* Explicit grid area */
     }
-    .blue{
+    .blue {
       background-color: blue;
       border-bottom: 10px solid black;
     }
-    .white4{
-      grid-row: span 2;
-
+    .white4 {
+      grid-row: span 2; /* Spans 2 rows */
     }
-    .yellow{
+    .yellow {
       background-color: #F9D01E;
     }
-    .black{
+    .black {
       background-color: #232629;
-    }
-    .item{
-      background-color: #F0F1EC;
     }
   </style>
 </head>
 
 <body>
   <div class="container">
-     <div class ="item red"></div>
+     <div class="item red"></div>
      <div class="item white1"></div>
      <div class="item white2"></div>
      <div class="item white3"></div>
      <div class="item blue"></div>
      <div class="item white4"></div>
-     <div claas="item"></div>
+     <div class="item"></div> <!-- Corrected typo here -->
      <div class="item yellow"></div>
      <div class="item black"></div>
   </div>
